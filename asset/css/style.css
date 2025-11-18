@@ -251,3 +251,17 @@ body {
 .btn-submit:hover {
     background: #57a75c;
 }
+
+
+
+/* CART */
+
+.out-right{
+    margin-right: 24px;
+    padding-left: 138px;
+}
+
+.out-right:hover{
+    cursor: pointer;
+    
+}
