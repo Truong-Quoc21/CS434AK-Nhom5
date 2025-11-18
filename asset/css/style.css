@@ -1,3 +1,88 @@
+/* ====== TIÊU ĐỀ ĐẶT HÀNG ====== */
+.order-header {
+    background: #eef0ff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.order-header h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.order-header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* ====== CONTAINER ====== */
+.order-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 40px auto;
+    gap: 40px;
+}
+
+/* ====== FORM BÊN TRÁI ====== */
+.order-left h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.order-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 30px;
+}
+
+.order-grid input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* ====== HÓA ĐƠN BÊN PHẢI ====== */
+.order-right {
+    width: 35%;
+}
+
+.invoice-box {
+    border: 1px solid #ccc;
+    padding: 0;
+    background: #fff;
+}
+
+.invoice-title {
+    background: #ddd;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.invoice-item {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+/* ====== NÚT ĐẶT HÀNG ====== */
+.order-btn {
+    width: 100%;
+    background: #7ffbff;
+    border: none;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* login */
 * {
     margin: 0;
